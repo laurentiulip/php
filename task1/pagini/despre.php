@@ -1,0 +1,4 @@
+<?php $titluPagina = 'Despre'; $paginaActiva = 'despre'; require dirname(__DIR__) . '/header.php'; ?>
+<div class="page-intro"><p class="eyebrow">Despre aplicație</p><h1>Un loc pentru task-urile echipei</h1><p>Organizarea sarcinilor și urmărirea progresului într-o interfață comună.</p></div>
+<section class="content-panel prose"><h2>Scopul proiectului</h2><p>Aplicația prezintă activitățile grupate pe proiecte, responsabilii și estimările de lucru. Utilizatorii planificați sunt Administratorul, Coordonatorul de proiect și Membrul echipei.</p><h2>Ce oferă versiunea <?= VERSIUNE_APLICATIE ?></h2><p>Navigare între pagini, carusel cu imagini tematice, exemple de task-uri și calcularea progresului. Pagina de conectare este o demonstrație de interfață, fără autentificare reală.</p><h2>Autorul proiectului</h2><p><?= e(AUTOR) ?>, grupa <?= e(GRUPA) ?>. Tema individuală: <?= e(DENUMIRE_PROIECT) ?>.</p></section>
+<?php require dirname(__DIR__) . '/footer.php'; ?>
